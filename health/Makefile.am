@@ -81,6 +81,7 @@ dist_healthconfig_DATA = \
     health.d/retroshare.conf \
     health.d/riakkv.conf \
     health.d/scaleio.conf \
+    health.d/services.conf \
     health.d/softnet.conf \
     health.d/squid.conf \
     health.d/stiebeleltron.conf \
