@@ -6,7 +6,7 @@
 #ifdef _WIN32
 # define PIPENAME "\\\\?\\pipe\\netdata-cli"
 #else
-# define PIPENAME "/tmp/netdata-ipc"
+# define PIPENAME "/run/netdata/ipc"
 #endif
 
 #define MAX_COMMAND_LENGTH 4096
